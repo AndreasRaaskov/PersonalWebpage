@@ -3,9 +3,11 @@ from pathlib import Path
 # Basic site information
 AUTHOR = 'Your Name'
 SITENAME = 'Your Name - Personal Website'
-SITEURL = ''  # Leave this empty for local development
+SITEURL = "https://andreasraaskov.github.io/PersonalWebpage"
+RELATIVE_URLS = False
 
-SITEURL = 'http://localhost:8000'
+
+#SITEURL = 'http://localhost:8000'
 
 # Time and Date
 TIMEZONE = 'Europe/Copenhagen'  # Adjust this to your timezone
